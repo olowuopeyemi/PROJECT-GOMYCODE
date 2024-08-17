@@ -1,0 +1,86 @@
+  body{
+    background-color: azure;
+  }
+  
+  .nav-container{
+   display:flex;
+   justify-content: space-around;
+    }
+    a{
+        color: #909090;
+        text-decoration: none;  
+      }
+      
+.nav-links{
+    margin-top: 18px;
+     display: flex;
+     gap: 50px;
+     margin-right: 100px;
+}
+nav-btn{
+    margin-top: 18px;
+}
+first-btn{
+    width: 70px;
+    height: 30px;
+    color:white;
+    background-color: #1E201D;
+    border: none;
+    border: 1px solid #6de754;
+    border-radius: 5px;
+}
+.second-btn{
+    width: 120px;
+    height: 30px;
+    color: #1E201D;
+    background-color: #6de754;
+    border: none;
+    border-radius: 5px;
+}
+.third-btn{
+    width: 120px;
+    height: 30px;
+    color: #1E201D;
+    background-color: red;
+    border: none;
+    border-radius: 5px; 
+}   
+.foot-section{
+    border: 1px;
+    margin-top: 70px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.foot-text{
+    font-size: 60px;
+    text-align: center;
+    line-height: 3px;
+}
+.text-a{
+    color: burlywood;
+}
+.input-section{
+    text-align: center;
+    margin-top: 30px;
+    position: relative;
+}
+.hero-input{
+    background-color:white;
+    width: 300px;
+    height: 40px;
+    border: 1px solid #909090;
+    border-radius: 10px;
+    padding-left: 50px;
+}
+.input-btn{
+    position: absolute;
+    right: 300px;
+    top: 5px;
+    background-color: #6de754;
+    color: #1E201D;
+    border: none;
+    height: 32px;
+    width: 100px;
+    border-radius: 100px;
+    font-weight: 600;
+}
